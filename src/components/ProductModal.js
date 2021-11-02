@@ -53,7 +53,6 @@ function ProductModal({ oldProduct }) {
               <InputGroup.Text>Image</InputGroup.Text>
               <FormControl
                 name="image"
-                value={product.image}
                 type="file"
                 onChange={handleImage}
                 placeholder="Image"

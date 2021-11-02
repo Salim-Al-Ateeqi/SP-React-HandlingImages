@@ -3,7 +3,7 @@ import { useState } from "react";
 import ProductModal from "./ProductModal";
 import { observer } from "mobx-react";
 import productStore from "../stores/productStore";
-import { Button, Form, Row, Stack } from "react-bootstrap";
+import { Form, Row, Stack } from "react-bootstrap";
 
 function ProductList() {
   const [query, setQuery] = useState("");
